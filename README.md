@@ -12,6 +12,7 @@ A curated list of papers and resources on **Reinforcement Learning of Vision-Lan
     - [Test-time RL-VLA](#test-time-rl-vla)
   - [📚 Paper Collection](#-paper-collection)
     - [Legend](#legend)
+    - [🎯 RL-VLA Action Optimization](#-rl-vla-action-optimization)
     - [Offline RL-VLA](#offline-rl-vla-1)
     - [Online RL-VLA](#online-rl-vla-1)
     - [Test-time RL-VLA](#test-time-rl-vla-1)
@@ -19,7 +20,6 @@ A curated list of papers and resources on **Reinforcement Learning of Vision-Lan
     - [Base VLA Models](#base-vla-models)
     - [Datasets \& Benchmarks](#datasets--benchmarks)
     - [Frameworks \& Tools](#frameworks--tools)
-  - [📊 Statistics](#-statistics)
   - [🤝 Contributing](#-contributing)
     - [Contribution Guidelines](#contribution-guidelines)
   - [📄 Citation](#-citation)
@@ -69,6 +69,18 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 - **Reward**: D (Dense Reward), S (Sparse Reward)
 - **Type**: MB (Model-based), MF (Model-free)
 - **Environment**: Sim. (Simulation), Real (Real-world)
+
+### 🎯 RL-VLA Action Optimization
+
+Different VLA architectures require distinct RL optimization strategies based on their action generation mechanisms:
+
+![RL-VLA Action Optimization](action.pdf)
+
+- **🔤 Autoregressive VLA**: Optimizes actions at the **token-level**. Each action token is individually optimized through RL, enabling fine-grained control over action sequences but requiring careful handling of sequential dependencies.
+
+- **🌊 Generative VLA** (Diffusion/Flow): Optimizes along the action generation process at the **sequence-level**. The entire action trajectory is optimized as a cohesive unit through the denoising or flow-matching process, providing holistic action optimization.
+
+- **🔗 Dual-system VLA**: Optimizes at the **bridge-level**. RL decides which high-level action proposal to pass to the fast controller, creating a hierarchical optimization approach that complements both token-level and sequence-level methods.
 
 ### Offline RL-VLA
 
@@ -121,6 +133,7 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | [Hume](https://arxiv.org/abs/2505.21432) | 2025.06 | ✓ | ✓ | Hume | Flow | S | Value Guidance | MF | [🔗](https://github.com/hume-vla/hume) |
 | [VLA-Reasoner](https://arxiv.org/abs/2509.22643) | 2025.09 | ✓ | ✓ | OpenVLA / SpatialVLA et al. | AR / Diffusion | D | MCTS | MB | - |
 
+**Note**: The 🔗 symbol in the Project column indicates papers with available project pages, GitHub repositories, or demo websites.
 ## 🔗 Useful Resources
 
 ### Base VLA Models
@@ -135,16 +148,6 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 ### Frameworks & Tools
 - [RLinf](https://github.com/RLinf/RLinf) - Infrastructure for online RL fine-tuning of VLAs
 
-## 📊 Statistics
-
-- **Total Papers**: 36
-- **Offline RL-VLA**: 6 papers
-- **Online RL-VLA**: 27 papers  
-- **Test-time RL-VLA**: 3 papers
-- **Papers with Project Pages**: 20+
-- **Last Updated**: November 2025
-
-**Note**: The 🔗 symbol in the Project column indicates papers with available project pages, GitHub repositories, or demo websites.
 
 ## 🤝 Contributing
 
