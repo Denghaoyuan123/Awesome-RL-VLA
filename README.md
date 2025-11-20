@@ -92,8 +92,9 @@ Different VLA architectures require distinct RL optimization strategies based on
 | [ReinboT](https://icml.cc/virtual/2025/poster/45523) | 2025.05 | ✓ | ✓ | ReinboT | AR | D | DT + RTG | MF | - |
 | [CO-RFT](https://arxiv.org/pdf/2508.02219) | 2025.08 | ✗ | ✓ | RoboVLMs | AR | D | Cal-QL + TD3 | MF | - |
 | [ARFM](https://arxiv.org/pdf/2509.04063) | 2025.09 | ✓ | ✓ | π₀ | Flow | D | ARFM | MF | - |
-| [$π^*_{0.6}$](https://www.physicalintelligence.company/download/pistar06.pdf) | 2025.11 | ✗ | ✓ | $π_{0.6}$ | Flow | D | RECAP | MF | [🔗](https://www.pi.website/blog/pistar06) |
+| [$π^*_{0.6}$](https://arxiv.org/abs/2511.14759) | 2025.11 | ✗ | ✓ | $π_{0.6}$ | Flow | D | RECAP | MF | [🔗](https://www.pi.website/blog/pistar06) |
 | [NORA-1.5](https://arxiv.org/pdf/2511.14659) | 2025.11 | ✓ | ✓ | NORA-1.5 | AR / Flow | D | DPO | MB | [🔗](https://declare-lab.github.io/nora-1.5) |
+
 
 ### Online RL-VLA
 
@@ -122,6 +123,7 @@ Different VLA architectures require distinct RL optimization strategies based on
 | [ReSA](https://arxiv.org/pdf/2510.12710) | 2025.10 | ✓ | ✗ | OpenVLA | AR | D | PPO + SFT | MF | - |
 | [π_RL](https://arxiv.org/abs/2510.25889) | 2025.10 | ✓ | ✗ | π₀ / π₀.₅ | Flow | S | PPO / GRPO | MF | [🔗](https://github.com/RLinf/RLinf) |
 | [PLD](https://arxiv.org/abs/2511.00091) | 2025.10 | ✓ | ✓ | OpenVLA / π₀ / Octo | AR / Flow | S | Cal-QL + SAC | MF | [🔗](https://www.wenlixiao.com/self-improve-VLA-PLD) |
+| [DeepThinkVLA](https://arxiv.org/abs/2511.15669) | 2025.10 | ✓ | ✗ | π₀-Fast | AR | S | GRPO | MF | [🔗](https://github.com/wadeKeith/DeepThinkVLA) |
 | [World-Env](https://arxiv.org/abs/2509.24948) | 2025.11 | ✓ | ✓ | OpenVLA-OFT | AR | D | PPO | MB | [🔗](https://github.com/amap-cvlab/world-env) |
 | [RobustVLA](https://arxiv.org/pdf/2511.01331) | 2025.11 | ✓ | ✗ | OpenVLA-OFT | AR | D | PPO | MF | - |
 | [WMPO](https://arxiv.org/abs/2511.09515) | 2025.11 | ✓ | ✓ | OpenVLA-OFT | AR | S | GRPO | MB | [🔗](https://wm-po.github.io/) |
@@ -131,7 +133,7 @@ Different VLA architectures require distinct RL optimization strategies based on
 | Method | Date | Sim. | Real | Base VLA Model | Action | Reward | Algorithm | Type | Project |
 |--------|------|------|------|----------------|--------|---------|-----------|------|---------|
 | [ConRFT](https://arxiv.org/pdf/2502.05450) | 2025.04 | ✗ | ✓ | Octo-small | Diffusion | S | Cal-QL + BC | MF | [🔗](https://github.com/cccedric/conrft) |
-
+| [SRPO](https://arxiv.org/abs/2511.15605) | 2025.11 | ✓ | ✓ | OpenVLA* / π₀ / π₀-Fast | AR / Flow | D | SRPO | MF (MB-Reward but MF-RL) | [🔗](https://github.com/sii-research/siiRL) |
 
 
 ### Test-time RL-VLA
