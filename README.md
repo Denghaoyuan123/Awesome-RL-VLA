@@ -143,6 +143,8 @@ Different VLA architectures require distinct RL optimization strategies based on
 | [V-GPS](https://arxiv.org/abs/2410.13816) | 2024.10 | ✓ | ✓ | Octo / RT-1 / OpenVLA | AR | D | Cal-QL | MF | [🔗](https://github.com/nakamotoo/V-GPS) |
 | [Hume](https://arxiv.org/abs/2505.21432) | 2025.06 | ✓ | ✓ | Hume | Flow | S | Value Guidance | MF | [🔗](https://github.com/hume-vla/hume) |
 | [VLA-Reasoner](https://arxiv.org/abs/2509.22643) | 2025.09 | ✓ | ✓ | OpenVLA / SpatialVLA et al. | AR / Diffusion | D | MCTS | MB | - |
+| [VLAPS](https://arxiv.org/abs/2508.12211) | 2025.11 | ✗ | ✓ | Octo | AR | S | MCTS | MB | [🔗](https://github.com/cyrusneary/vlaps) |
+
 
 **Note**: The 🔗 symbol in the Project column indicates papers with available project pages, GitHub repositories, or demo websites.
 ## 🔗 Useful Resources
