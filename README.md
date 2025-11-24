@@ -4,7 +4,7 @@ A curated list of papers and resources on **Reinforcement Learning of Vision-Lan
 
 ## 📢 Latest News
 
-> 🔥 **[November 2024]** Our comprehensive survey paper **"A Survey on Reinforcement Learning of Vision-Language-Action Models for Robotic Manipulation"** is currently under review on arXiv and will be published soon! Stay tuned for the official release.
+> 🔥 **[November 2025]** Our comprehensive survey paper **"A Survey on Reinforcement Learning of Vision-Language-Action Models for Robotic Manipulation"** is currently under review on arXiv and will be published soon! Stay tuned for the official release.
 
 ## 📖 Table of Contents
 - [Awesome RL-VLA for Robotic Manipulation 🤖](#awesome-rl-vla-for-robotic-manipulation-)
