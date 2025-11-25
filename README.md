@@ -5,6 +5,8 @@ A curated list of papers and resources on **Reinforcement Learning of Vision-Lan
 ## 📢 Latest News
 
 > 🔥 **[November 2025]** Our comprehensive survey paper **"A Survey on Reinforcement Learning of Vision-Language-Action Models for Robotic Manipulation"** is currently under review on arXiv and will be published soon! Stay tuned for the official release.
+> 
+> 📄 **[Available Now]** You can read our survey paper: **[A Survey on Reinforcement Learning for VLA Optimization.pdf](./A_Survey_on_Reinforcement_Learning_for_VLA_Optimization.pdf)** 📚
 
 ## 📖 Table of Contents
 - [Awesome RL-VLA for Robotic Manipulation 🤖](#awesome-rl-vla-for-robotic-manipulation-)
@@ -23,6 +25,7 @@ A curated list of papers and resources on **Reinforcement Learning of Vision-Lan
     - [Offline + Online RL-VLA](#offline--online-rl-vla)
     - [Test-time RL-VLA](#test-time-rl-vla-1)
   - [🔗 Useful Resources](#-useful-resources)
+    - [📄 Survey Paper](#-survey-paper)
     - [Base VLA Models](#base-vla-models)
     - [Datasets \& Benchmarks](#datasets--benchmarks)
     - [Frameworks \& Tools](#frameworks--tools)
@@ -153,6 +156,9 @@ Different VLA architectures require distinct RL optimization strategies based on
 
 **Note**: The 🔗 symbol in the Project column indicates papers with available project pages, GitHub repositories, or demo websites.
 ## 🔗 Useful Resources
+
+### 📄 Survey Paper
+- [A Survey on Reinforcement Learning for VLA Optimization (PDF)](./A_Survey_on_Reinforcement_Learning_for_VLA_Optimization.pdf) - Our comprehensive survey paper on RL-VLA
 
 ### Base VLA Models
 - [OpenVLA](https://github.com/openvla/openvla) - Open-source VLA model
