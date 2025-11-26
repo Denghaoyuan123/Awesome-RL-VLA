@@ -76,7 +76,7 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 ### Legend
 - **Action**: AR (Autoregressive), Diffusion, Flow (Flow-matching)
 - **Reward**: D (Dense Reward), S (Sparse Reward)
-- **Type**: MB (Model-based), MF (Model-free)
+- **Model Type**: MB (Model-based), MF (Model-free)
 - **Environment**: Sim. (Simulation), Real (Real-world)
 
 ### 🎯 RL-VLA Action Optimization
