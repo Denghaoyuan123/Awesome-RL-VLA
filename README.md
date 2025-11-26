@@ -135,6 +135,8 @@ Different VLA architectures require distinct RL optimization strategies based on
 | [World-Env](https://arxiv.org/abs/2509.24948) | 2025.11 | ✓ | ✓ | OpenVLA-OFT | AR | D | PPO | MB | [🔗](https://github.com/amap-cvlab/world-env) |
 | [RobustVLA](https://arxiv.org/pdf/2511.01331) | 2025.11 | ✓ | ✗ | OpenVLA-OFT | AR | D | PPO | MF | - |
 | [WMPO](https://arxiv.org/abs/2511.09515) | 2025.11 | ✓ | ✓ | OpenVLA-OFT | AR | S | GRPO | MB | [🔗](https://wm-po.github.io/) |
+| [ProphRL](https://arxiv.org/abs/2511.20633v1) | 2025.11 | ✓ | ✓ | VLA-Adapter / Pi0.5 / OpenVLA-OFT(flow action) | Flow | S | FA-GRPO | MB | [🔗](https://logosroboticsgroup.github.io/ProphRL) |
+
 
 ### Offline + Online RL-VLA
 
@@ -142,6 +144,7 @@ Different VLA architectures require distinct RL optimization strategies based on
 |--------|------|------|------|----------------|--------|---------|-----------|------|---------|
 | [ConRFT](https://arxiv.org/pdf/2502.05450) | 2025.04 | ✗ | ✓ | Octo-small | Diffusion | S | Cal-QL + BC | MF | [🔗](https://github.com/cccedric/conrft) |
 | [SRPO](https://arxiv.org/abs/2511.15605) | 2025.11 | ✓ | ✓ | OpenVLA* / π₀ / π₀-Fast | AR / Flow | D | SRPO | MF (MB-Reward but MF-RL) | [🔗](https://github.com/sii-research/siiRL) |
+| [DLR](https://arxiv.org/abs/2511.19528) | 2025.11 | ✓ | ✗ | π₀ / OpenVLA | Flow / AR | S | PPO(MLP) + SFT(VLA)  | MF | - |
 
 
 ### Test-time RL-VLA
