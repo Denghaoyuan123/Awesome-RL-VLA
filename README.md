@@ -19,13 +19,12 @@ A curated list of papers and resources on **Reinforcement Learning of Vision-Lan
     - [Test-time RL-VLA](#test-time-rl-vla)
   - [📚 Paper Collection](#-paper-collection)
     - [Legend](#legend)
-    - [🎯 RL-VLA Action Optimization](#-rl-vla-action-optimization)
     - [Offline RL-VLA](#offline-rl-vla-1)
     - [Online RL-VLA](#online-rl-vla-1)
     - [Offline + Online RL-VLA](#offline--online-rl-vla)
     - [Test-time RL-VLA](#test-time-rl-vla-1)
   - [🔗 Useful Resources](#-useful-resources)
-    - [📄 Survey Paper](#-survey-paper)
+    - [🎯 RL-VLA Action Optimization](#-rl-vla-action-optimization)
     - [Base VLA Models](#base-vla-models)
     - [Datasets \& Benchmarks](#datasets--benchmarks)
     - [Frameworks \& Tools](#frameworks--tools)
@@ -78,18 +77,6 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 - **Reward**: D (Dense Reward), S (Sparse Reward)
 - **Model Type**: MB (Model-based), MF (Model-free)
 - **Environment**: Sim. (Simulation), Real (Real-world)
-
-### 🎯 RL-VLA Action Optimization
-
-Different VLA architectures require distinct RL optimization strategies based on their action generation mechanisms:
-
-![RL-VLA Action Optimization](action.pdf)
-
-- **🔤 Autoregressive VLA**: Optimizes actions at the **token-level**. Each action token is individually optimized through RL, enabling fine-grained control over action sequences but requiring careful handling of sequential dependencies.
-
-- **🌊 Generative VLA** (Diffusion/Flow): Optimizes along the action generation process at the **sequence-level**. The entire action trajectory is optimized as a cohesive unit through the denoising or flow-matching process, providing holistic action optimization.
-
-- **🔗 Dual-system VLA**: Optimizes at the **bridge-level**. RL decides which high-level action proposal to pass to the fast controller, creating a hierarchical optimization approach that complements both token-level and sequence-level methods.
 
 ### Offline RL-VLA
 
@@ -160,8 +147,26 @@ Different VLA architectures require distinct RL optimization strategies based on
 **Note**: The 🔗 symbol in the Project column indicates papers with available project pages, GitHub repositories, or demo websites.
 ## 🔗 Useful Resources
 
-### 📄 Survey Paper
-- [A Survey on Reinforcement Learning for VLA Optimization (PDF)](./A_Survey_on_Reinforcement_Learning_for_VLA_Optimization.pdf) - Our comprehensive survey paper on RL-VLA
+### 🎯 RL-VLA Action Optimization
+
+Different VLA architectures require distinct RL optimization strategies based on their action generation mechanisms:
+
+<table>
+<tr>
+<td width="34%">
+<img src="action.png" alt="RL-VLA Action Optimization" width="100%" />
+</td>
+<td width="66%">
+
+- **🔤 Autoregressive VLA**: Optimizes actions at the **token-level**. Each action token is individually optimized through RL, enabling fine-grained control over action sequences but requiring careful handling of sequential dependencies.
+
+- **🌊 Generative VLA** (Diffusion/Flow): Optimizes along the action generation process at the **sequence-level**. The entire action trajectory is optimized as a cohesive unit through the denoising or flow-matching process, providing holistic action optimization.
+
+- **🔗 Dual-system VLA**: Optimizes at the **bridge-level**. RL decides which high-level action proposal to pass to the fast controller, creating a hierarchical optimization approach that complements both token-level and sequence-level methods.
+
+</td>
+</tr>
+</table>
 
 ### Base VLA Models
 - [OpenVLA](https://github.com/openvla/openvla) - Open-source VLA model
