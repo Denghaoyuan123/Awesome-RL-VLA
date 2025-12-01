@@ -207,9 +207,10 @@ If you find this repository useful, please consider citing:
 @misc{pine2025rlvla,
   title={A Survey on Reinforcement Learning of Vision-Language-Action Models for Robotic Manipulation},
   author={Deng, Haoyuan and Wu, Zhenyu and Liu, Haichao and Guo, Wenkai and Xue, Yuquan and Shan, Ziyu and Zhang, Chuanrui and Jia, Bofang and Ling, Yuan and Lu, Guanxing and Wang, Ziwei},
+  howpublished = {\url{https://github.com/Denghaoyuan123/Awesome-RL-VLA}},
+  month={November},
   year={2025},
-  doi={10.5281/zenodo.17713487},
-  url={https://doi.org/10.5281/zenodo.17713487}
+  doi={10.5281/zenodo.17713487}
 }
 
 @article{pine2025rlvla,
