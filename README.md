@@ -108,6 +108,7 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | [RFTF](https://arxiv.org/abs/2505.19767) | 2025.05 | ✓ | ✗ | GR-MG, Seer | AR | D | PPO | MF | - |
 | [TGRPO](https://arxiv.org/abs/2506.08440) | 2025.06 | ✓ | ✗ | OpenVLA | AR | D | GRPO | MF | - |
 | [RLRC](https://arxiv.org/pdf/2506.17639) | 2025.06 | ✓ | ✗ | OpenVLA | AR | S | PPO | MF | [🔗](https://rlrc-vla.github.io/) |
+| [ThinkAct](https://arxiv.org/abs/2507.16815) | 2025.07 | ✓ | ✗ | MLLM + DiT | AR / Diffusion | D | GRPO (System 2) | MF | [🔗](https://jasper0314-huang.github.io/thinkact-vla/) |
 | [SimpleVLA-RL](https://arxiv.org/pdf/2509.09674) | 2025.09 | ✓ | ✓ | OpenVLA-OFT | AR | S | GRPO | MF | [🔗](https://github.com/PRIME-RL/SimpleVLA-RL) |
 | [Dual-Actor FT](https://arxiv.org/pdf/2509.13774) | 2025.09 | ✓ | ✓ | Octo / SmolVLA | Diffusion | S | QL + BC | MF | [🔗](https://sites.google.com/view/hil-daft/) |
 | [Generalist](https://arxiv.org/pdf/2509.15155) | 2025.09 | ✓ | ✓ | PaLI 3B | AR | D | REINFORCE | MF | [🔗](https://self-improving-efms.github.io./) |
@@ -131,6 +132,7 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | Method | Date | Sim. | Real | Base VLA Model | Action | Reward | Algorithm | Type | Project |
 |--------|------|------|------|----------------|--------|---------|-----------|------|---------|
 | [ConRFT](https://arxiv.org/pdf/2502.05450) | 2025.04 | ✗ | ✓ | Octo-small | Diffusion | S | Cal-QL + BC | MF | [🔗](https://github.com/cccedric/conrft) |
+| [DiffusionRL-VLA](https://arxiv.org/abs/2509.19752v2) | 2025.9 | ✓ | ✗ | π₀ | Flow | S | PPO(DP) + BC(VLA)  | MF | - |
 | [SRPO](https://arxiv.org/abs/2511.15605) | 2025.11 | ✓ | ✓ | OpenVLA* / π₀ / π₀-Fast | AR / Flow | D | SRPO | MF (MB-Reward but MF-RL) | [🔗](https://github.com/sii-research/siiRL) |
 | [DLR](https://arxiv.org/abs/2511.19528) | 2025.11 | ✓ | ✗ | π₀ / OpenVLA | Flow / AR | S | PPO(MLP) + SFT(VLA)  | MF | - |
 | [GR-RL](https://arxiv.org/abs/2512.01801) | 2025.12 | ✗ | ✓ | GR-3 | Flow | S | TD3 / DSRL | MF | [🔗](https://seed.bytedance.com/gr_rl) |
@@ -189,6 +191,7 @@ Different VLA architectures require distinct RL optimization strategies based on
 
 ### Frameworks & Tools
 - [RLinf](https://github.com/RLinf/RLinf) - Infrastructure for online RL fine-tuning of VLAs
+- [RLinfv0.2](https://rlinf.readthedocs.io/en/latest/rst_source/examples/realworld.html) - Infrastructure for real world RL
 
 
 ## 🤝 Contributing
