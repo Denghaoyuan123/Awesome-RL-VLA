@@ -83,8 +83,8 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 |--------|------|------|------|----------------|--------|---------|-----------|------|---------|
 | [Q-Transformer](https://arxiv.org/abs/2309.10150) | 2023.10 | ✓ | ✗ | Transformer | AR | S | CQL | MF | [🔗](https://qtransformer.github.io/) |
 | [PAC](https://arxiv.org/abs/2402.05546) | 2024.02 | ✓ | ✓ | Perceiver-Actor-Critic | AR | S | AC | MF | [🔗](https://sites.google.com/view/perceiver-actor-critic) |
-| [GeRM](https://arxiv.org/pdf/2403.13358) | 2024.03 | ✓ | ✗ | Transformer-MoE | AR | S | CQL | MF | [🔗](https://songwxuan.github.io/GeRM/) |
-| [MoRE](https://arxiv.org/pdf/2503.08007) | 2025.03 | ✗ | ✓  | MLLM-MoE | AR | S | CQL | MF |  -  |
+| [GeRM](https://arxiv.org/pdf/2403.13358) | 2024.03 | ✓ | ✗ | Transformer-MoE | AR | S | CQL | MF | [🔗](https://songwxuan.github.io/GeRM/) RL-VLA for robot dog planning|
+| [MoRE](https://arxiv.org/pdf/2503.08007) | 2025.03 | ✗ | ✓  | MLLM-MoE | AR | S | CQL | MF |  -  RL-VLA for robot dog planning |
 | [ReinboT](https://icml.cc/virtual/2025/poster/45523) | 2025.05 | ✓ | ✓ | ReinboT | AR | D | DT + RTG | MF | - |
 | [CO-RFT](https://arxiv.org/pdf/2508.02219) | 2025.08 | ✗ | ✓ | RoboVLMs | AR | D | Cal-QL + TD3 | MF | - |
 | [ARFM](https://arxiv.org/pdf/2509.04063) | 2025.09 | ✓ | ✓ | π₀ | Flow | D | ARFM | MF | - |
@@ -126,6 +126,8 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | [WMPO](https://arxiv.org/abs/2511.09515) | 2025.11 | ✓ | ✓ | OpenVLA-OFT | AR | S | GRPO | MB | [🔗](https://wm-po.github.io/) |
 | [ProphRL](https://arxiv.org/abs/2511.20633v1) | 2025.11 | ✓ | ✓ | VLA-Adapter / Pi0.5 / OpenVLA-OFT(flow action) | Flow | S | FA-GRPO | MB | [🔗](https://logosroboticsgroup.github.io/ProphRL) |
 | [SOP](https://arxiv.org/abs/2601.03044v1) | 2026.1 | ✗ | ✓ | Pi0.5 | Flow | S | HG-DAgger / RECAP | MF | [🔗](https://www.agibot.com/research/sop) |
+| [EVOLVE-VLA](https://arxiv.org/pdf/2512.14666) | 2025.12 | ✓ | ✗ |  OpenVLA-OFT | AR | D | GRPO | MB(VLAC) | [🔗](https://showlab.github.io/EVOLVE-VLA) |
+
 
 ### Offline + Online RL-VLA
 
@@ -149,8 +151,6 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | [VLAPS](https://arxiv.org/abs/2508.12211) | 2025.11 | ✓ | ✗ | Octo | Diffusion | S | MCTS | MB | [🔗](https://github.com/cyrusneary/vlaps) |
 | [VLA-Pilot](https://arxiv.org/pdf/2511.14178) | 2025.11 | ✗ | ✓ | DiVLA / RDT | AR / Diffusion | D | Value GuidanceT | MB(MLLM) | [🔗](https://rip4kobe.github.io/vla-pilot/) |
 | [TACO](https://arxiv.org/pdf/2512.02834) | 2025.12 | ✓ | ✓ |  π₀ / OpenVLA et al. | Flow | S | CNF estimation | MF | [🔗](https://vla-anti-exploration.github.io/) |
-| [EVOLVE-VLA](https://arxiv.org/pdf/2512.14666) | 2025.12 | ✓ | ✗ |  OpenVLA-OFT | AR | D | GRPO | MB(VLAC) | [🔗](https://showlab.github.io/EVOLVE-VLA) |
-
 
 **Note**: The 🔗 symbol in the Project column indicates papers with available project pages, GitHub repositories, or demo websites.
 ## 🔗 Useful Resources
