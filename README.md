@@ -83,8 +83,8 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 |--------|------|------|------|----------------|--------|---------|-----------|------|---------|
 | [Q-Transformer](https://arxiv.org/abs/2309.10150) | 2023.10 | ✓ | ✗ | Transformer | AR | S | CQL | MF | [🔗](https://qtransformer.github.io/) |
 | [PAC](https://arxiv.org/abs/2402.05546) | 2024.02 | ✓ | ✓ | Perceiver-Actor-Critic | AR | S | AC | MF | [🔗](https://sites.google.com/view/perceiver-actor-critic) |
-| [GeRM](https://arxiv.org/pdf/2403.13358) | 2024.03 | ✓ | ✗ | Transformer-MoE | AR | S | CQL | MF | [🔗](https://songwxuan.github.io/GeRM/) RL-VLA for robot dog planning|
-| [MoRE](https://arxiv.org/pdf/2503.08007) | 2025.03 | ✗ | ✓  | MLLM-MoE | AR | S | CQL | MF |  -  RL-VLA for robot dog planning |
+| [GeRM](https://arxiv.org/pdf/2403.13358) | 2024.03 | ✓ | ✗ | Transformer-MoE | AR | S | CQL | MF | [🔗](https://songwxuan.github.io/GeRM/) RL-VLA for Quadruped Locomotion|
+| [MoRE](https://arxiv.org/pdf/2503.08007) | 2025.03 | ✗ | ✓  | MLLM-MoE | AR | S | CQL | MF |  -  RL-VLA for Quadruped Locomotion|
 | [ReinboT](https://icml.cc/virtual/2025/poster/45523) | 2025.05 | ✓ | ✓ | ReinboT | AR | D | DT + RTG | MF | - |
 | [CO-RFT](https://arxiv.org/pdf/2508.02219) | 2025.08 | ✗ | ✓ | RoboVLMs | AR | D | Cal-QL + TD3 | MF | - |
 | [ARFM](https://arxiv.org/pdf/2509.04063) | 2025.09 | ✓ | ✓ | π₀ | Flow | D | ARFM | MF | - |
