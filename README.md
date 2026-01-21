@@ -188,6 +188,7 @@ Different VLA architectures require distinct RL optimization strategies based on
 - [LIBERO](https://libero-ai.github.io/) - Benchmark for lifelong robot learning
 - [SimplerEnv](https://github.com/simpler-env/SimplerEnv) - Benchmark for real-sim robot learning
 - [RoboTwin](https://github.com/robotwin-Platform/robotwin) - Benchmark for bimanual robot learning
+- [DeepPHY](https://github.com/XinrunXu/DeepPHY) - Benchmark for physical reasoning
 
 ### Frameworks & Tools
 - [RLinf](https://github.com/RLinf/RLinf) - Infrastructure for online RL fine-tuning of VLAs
