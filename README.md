@@ -146,11 +146,12 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 |--------|------|------|------|----------------|--------|---------|-----------|------|---------|
 | [V-GPS](https://arxiv.org/abs/2410.13816) | 2024.10 | ✓ | ✓ | Octo / RT-1 / OpenVLA | AR / Diffusion | D | Cal-QL | MF | [🔗](https://github.com/nakamotoo/V-GPS) |
 | [Hume](https://arxiv.org/abs/2505.21432) | 2025.06 | ✓ | ✓ | Hume | Flow | S | Value Guidance | MF | [🔗](https://github.com/hume-vla/hume) |
-| [VLA-Reasoner](https://arxiv.org/abs/2509.22643) | 2025.09 | ✓ | ✓ | OpenVLA / SpatialVLA et al. | AR / Diffusion | D | MCTS | MB | - |
+| [VLA-Reasoner](https://arxiv.org/abs/2509.22643) | 2025.09 | ✓ | ✓ | OpenVLA / SpatialVLA / π₀-Fast | AR / Diffusion | D | MCTS | MB | - |
 | [VLAPS](https://arxiv.org/abs/2508.12211) | 2025.11 | ✓ | ✗ | Octo | Diffusion | S | MCTS | MB | [🔗](https://github.com/cyrusneary/vlaps) |
 | [VLA-Pilot](https://arxiv.org/pdf/2511.14178) | 2025.11 | ✗ | ✓ | DiVLA / RDT | AR / Diffusion | D | Value GuidanceT | MB(MLLM) | [🔗](https://rip4kobe.github.io/vla-pilot/) |
 | [TACO](https://arxiv.org/pdf/2512.02834) | 2025.12 | ✓ | ✓ |  π₀ / OpenVLA et al. | Flow | S | CNF estimation | MF | [🔗](https://vla-anti-exploration.github.io/) |
 | [TT-VLA](https://arxiv.org/abs/2601.06748v2) | 2026.1 | ✓ | ✓ | Nora / OpenVLA / TraceVLA | AR | D | PPO (Value-free) | MF | - |
+| [VLS](https://arxiv.org/pdf/2602.03973) | 2026.2 | ✓ | ✓ | OpenVLA / π₀ / π₀.₅ | Flow | D | gradient-based steer | MB(VLM) | [🔗](https://vision-language-steering.github.io/webpage/) |
 
 **Note**: The 🔗 symbol in the Project column indicates papers with available project pages, GitHub repositories, or demo websites.
 ## 🔗 Useful Resources
