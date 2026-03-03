@@ -128,7 +128,7 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | [ProphRL](https://arxiv.org/abs/2511.20633v1) | 2025.11 | ✓ | ✓ | VLA-Adapter / Pi0.5 / OpenVLA-OFT(flow action) | Flow | S | FA-GRPO | MB | [🔗](https://logosroboticsgroup.github.io/ProphRL) |
 | [EVOLVE-VLA](https://arxiv.org/pdf/2512.14666) | 2025.12 | ✓ | ✗ |  OpenVLA-OFT | AR | D | GRPO | MB(VLAC) | [🔗](https://showlab.github.io/EVOLVE-VLA) |
 | [SOP](https://arxiv.org/abs/2601.03044v1) | 2026.1 | ✗ | ✓ | Pi0.5 | Flow | S | HG-DAgger / RECAP | MF | [🔗](https://www.agibot.com/research/sop) |
-| [VLAW](https://arxiv.org/abs/2602.12063) | 2026.2 | ✗ | ✓ | Pi0.5 | Flow | S | HG-DAgger / RECAP | MB(Ctrl-World + Qwen3-VL) | [🔗](https://sites.google.com/view/vlaw-arxiv) |
+##| [VLAW](https://arxiv.org/abs/2602.12063) | 2026.2 | ✗ | ✓ | Pi0.5 | Flow | S | HG-DAgger / RECAP | MB(Ctrl-World + Qwen3-VL) | [🔗](https://sites.google.com/view/vlaw-arxiv) |
 
 ### Offline + Online RL-VLA
 
@@ -147,7 +147,7 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 |--------|------|------|------|----------------|--------|---------|-----------|------|---------|
 | [V-GPS](https://arxiv.org/abs/2410.13816) | 2024.10 | ✓ | ✓ | Octo / RT-1 / OpenVLA | AR / Diffusion | D | Cal-QL | MF | [🔗](https://github.com/nakamotoo/V-GPS) |
 | [Hume](https://arxiv.org/abs/2505.21432) | 2025.06 | ✓ | ✓ | Hume | Flow | S | Value Guidance | MF | [🔗](https://github.com/hume-vla/hume) |
-| [VLA-Reasoner](https://arxiv.org/abs/2509.22643) | 2025.09 | ✓ | ✓ | OpenVLA / SpatialVLA / π₀-Fast | AR / Diffusion | D | MCTS | MB | - |
+| [VLA-Reasoner](https://arxiv.org/abs/2509.22643) | 2025.09 | ✓ | ✓ | OpenVLA / SpatialVLA / π₀-Fast | AR / Diffusion | D | MCTS | MB | (https://vla-reasoner.github.io/) |
 | [VLAPS](https://arxiv.org/abs/2508.12211) | 2025.11 | ✓ | ✗ | Octo | Diffusion | S | MCTS | MB | [🔗](https://github.com/cyrusneary/vlaps) |
 | [VLA-Pilot](https://arxiv.org/pdf/2511.14178) | 2025.11 | ✗ | ✓ | DiVLA / RDT | AR / Diffusion | D | Value GuidanceT | MB(MLLM) | [🔗](https://rip4kobe.github.io/vla-pilot/) |
 | [TACO](https://arxiv.org/pdf/2512.02834) | 2025.12 | ✓ | ✓ |  π₀ / OpenVLA et al. | Flow | S | CNF estimation | MF | [🔗](https://vla-anti-exploration.github.io/) |
