@@ -114,6 +114,7 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | [Dual-Actor FT](https://arxiv.org/pdf/2509.13774) | 2025.09 | ✓ | ✓ | Octo / SmolVLA | Diffusion | S | QL + BC | MF | [🔗](https://sites.google.com/view/hil-daft/) |
 | [Generalist](https://arxiv.org/pdf/2509.15155) | 2025.09 | ✓ | ✓ | PaLI 3B | AR | D | REINFORCE | MF | [🔗](https://self-improving-efms.github.io./) |
 | [VLAC](https://arxiv.org/abs/2509.15937) | 2025.09 | ✗ | ✓ | VLAC | AR | D | PPO | MF | [🔗](https://github.com/InternRobotics/VLAC) |
+| [Robo-Dopamine](https://arxiv.org/abs/2512.23703) | 2025.12 | ✓ | ✓ | Pi0.5 | Flow | D | PPO | MF | [🔗](https://github.com/FlagOpen/Robo-Dopamine) |
 | [AC PPO](https://arxiv.org/pdf/2509.25718) | 2025.09 | ✓ | ✗ | Octo-small | AR | S | PPO+BC | MF | - |
 | [VLA-RFT](https://arxiv.org/abs/2510.00406) | 2025.10 | ✓ | ✗ | VLA-Adapter | Flow | D | GRPO | MB | [🔗](https://vla-rft.github.io/) |
 | [RLinf-VLA](https://arxiv.org/pdf/2510.06710v1) | 2025.10 | ✓ | ✓ | OpenVLA / OpenVLA-OFT | AR | S | PPO / GRPO | MF | [🔗](https://github.com/RLinf/RLinf) |
