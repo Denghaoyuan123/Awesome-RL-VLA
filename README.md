@@ -126,29 +126,41 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | [World-Env](https://arxiv.org/abs/2509.24948) | 2025.11 | ✓ | ✓ | OpenVLA-OFT | AR | D | PPO | MB | [🔗](https://github.com/amap-cvlab/world-env) |
 | [RobustVLA](https://arxiv.org/pdf/2511.01331) | 2025.11 | ✓ | ✗ | OpenVLA-OFT | AR | D | PPO | MF | - |
 | [WMPO](https://arxiv.org/abs/2511.09515) | 2025.11 | ✓ | ✓ | OpenVLA-OFT | AR | S | GRPO | MB | [🔗](https://wm-po.github.io/) |
-| [ProphRL](https://arxiv.org/abs/2511.20633v1) | 2025.11 | ✓ | ✓ | VLA-Adapter / Pi0.5 / OpenVLA-OFT(flow action) | Flow | S | FA-GRPO | MB | [🔗](https://logosroboticsgroup.github.io/ProphRL) |
+| [ProphRL](https://arxiv.org/abs/2511.20633v1) | 2025.11 | ✓ | ✓ | VLA-Adapter / π0.5 / OpenVLA-OFT(flow action) | Flow | S | FA-GRPO | MB | [🔗](https://logosroboticsgroup.github.io/ProphRL) |
 | [EVOLVE-VLA](https://arxiv.org/pdf/2512.14666) | 2025.12 | ✓ | ✗ |  OpenVLA-OFT | AR | D | GRPO | MB(VLAC) | [🔗](https://showlab.github.io/EVOLVE-VLA) |
-| [SOP](https://arxiv.org/abs/2601.03044v1) | 2026.1 | ✗ | ✓ | Pi0.5 | Flow | S | HG-DAgger / RECAP | MF | [🔗](https://www.agibot.com/research/sop) |
+| [SOP](https://arxiv.org/abs/2601.03044v1) | 2026.1 | ✗ | ✓ | π0.5 | Flow | S | HG-DAgger / RECAP | MF | [🔗](https://www.agibot.com/research/sop) |
+| [Green-VLA](https://arxiv.org/abs/2602.00919) | 2026.1 | ✓ | ✓ | Green-VLA | Flow | S | IQL + actor-critic | MF | [🔗](https://github.com/greenvla/GreenVLA) |
+| [SA-VLA](https://arxiv.org/abs/2602.00743) | 2026.1 | ✓ | ✗ | π0.5 | Flow | D | PPO | MF | [🔗](https://github.com/TwSphinx54/SA-VLA) |
+| [World-Gymnast](https://arxiv.org/abs/2602.02454) | 2026.2 | ✓ | ✓ | OpenVLA-OFT | AR | S | GRPO | MB | [🔗](https://world-gymnast.github.io) |
+| [RL-VLA3](https://arxiv.org/abs/2602.05765) | 2026.2 | ✓ | ✓ | π0 / π0.5 / GR00T N1.5 / OpenVLA-OFT | Flow / AR | S| - | MF | — |
+| [World-VLA-Loop](https://arxiv.org/abs/2602.06508) | 2026.2 | ✓ | ✓ | OpenVLA-OFT | AR | S | GRPO | MB | [🔗](https://showlab.github.io/World-VLA-Loop/) |
+| [RISE](https://arxiv.org/abs/2602.11075) | 2026.2 | ✗ | ✓ | π0.5 | Flow | D | RISE | MB | [🔗](https://opendrivelab.com/kai0-rl/) |
+| [WoVR](https://arxiv.org/abs/2602.13977) | 2026.2 | ✓ | ✓ | OpenVLA-OFT | AR | S | GRPO | MB | [🔗](https://github.com/RLinf/RLinf) |
+| [ALOE](https://arxiv.org/abs/2602.12691) | 2026.2 | ✗ | ✓ | π₀.₅ | Flow | S | AWR(Advantage-Weighted Regression) | MF | [🔗](https://rooshy-yang.github.io/) |
+| [TwinRL-VLA](https://arxiv.org/abs/2602.09023) | 2026.2 | ✗ | ✓ | Octo | Diffusion | S | Actor-Critic | MF | — |
+| [RL-Co](https://arxiv.org/abs/2602.12628) | 2026.3 | ✓ | ✓ | OpenVLA / π0.5 | AR / Flow | D |  ReinFlow / GRPO | MF | — |
 | [π_StepNFT](https://arxiv.org/abs/2603.02083) | 2026.3 | ✓ | ✗ | π₀ / π₀.₅ | Flow | S | NFT | MF | [🔗](https://github.com/wangst0181/pi-StepNFT) |
 
 ### Offline + Online RL-VLA
 
 | Method | Date | Sim. | Real | Base VLA Model | Action | Reward | Algorithm | Type | Project |
 |--------|------|------|------|----------------|--------|---------|-----------|------|---------|
-| [ConRFT](https://arxiv.org/pdf/2502.05450) | 2025.04 | ✗ | ✓ | Octo-small | Diffusion | S | Cal-QL + BC | MF | [🔗](https://github.com/cccedric/conrft) |
+| [ConRFT](https://arxiv.org/pdf/2502.05450) | 2025.4 | ✗ | ✓ | Octo-small | Diffusion | S | Cal-QL + BC | MF | [🔗](https://github.com/cccedric/conrft) |
 | [DiffusionRL-VLA](https://arxiv.org/abs/2509.19752v2) | 2025.9 | ✓ | ✗ | π₀ | Flow | S | PPO(DP) + BC(VLA)  | MF | - |
 | [SRPO](https://arxiv.org/abs/2511.15605) | 2025.11 | ✓ | ✓ | OpenVLA* / π₀ / π₀-Fast | AR / Flow | D | SRPO | MF (MB-Reward but MF-RL) | [🔗](https://github.com/sii-research/siiRL) |
 | [DLR](https://arxiv.org/abs/2511.19528) | 2025.11 | ✓ | ✗ | π₀ / OpenVLA | Flow / AR | S | PPO(MLP) + SFT(VLA)  | MF | - |
 | [GR-RL](https://arxiv.org/abs/2512.01801) | 2025.12 | ✗ | ✓ | GR-3 | Flow | S | TD3 / DSRL | MF | [🔗](https://seed.bytedance.com/gr_rl) |
 | [STARE-VLA](https://arxiv.org/abs/2512.05107) | 2025.12 | ✓ | ✗ | OpenVLA / π₀.₅ | AR / Flow | D | PPO / TPO / SFT | MF | [🔗](https://sites.google.com/view/stare-vla) |
+| [IG-RFT](https://arxiv.org/abs/2602.20715) | 2026.2 | ✗ | ✓ | π₀.₅ | Flow | D | IG-AWR | MF | — |
+
 
 ### Test-time RL-VLA
 
 | Method | Date | Sim. | Real | Base VLA Model | Action | Reward | Algorithm | Type | Project |
 |--------|------|------|------|----------------|--------|---------|-----------|------|---------|
 | [V-GPS](https://arxiv.org/abs/2410.13816) | 2024.10 | ✓ | ✓ | Octo / RT-1 / OpenVLA | AR / Diffusion | D | Cal-QL | MF | [🔗](https://github.com/nakamotoo/V-GPS) |
-| [Hume](https://arxiv.org/abs/2505.21432) | 2025.06 | ✓ | ✓ | Hume | Flow | S | Value Guidance | MF | [🔗](https://github.com/hume-vla/hume) |
-| [VLA-Reasoner](https://arxiv.org/abs/2509.22643) | 2025.09 | ✓ | ✓ | OpenVLA / SpatialVLA / π₀-Fast | AR / Diffusion | D | MCTS | MB | (https://vla-reasoner.github.io/) |
+| [Hume](https://arxiv.org/abs/2505.21432) | 2025.6 | ✓ | ✓ | Hume | Flow | S | Value Guidance | MF | [🔗](https://github.com/hume-vla/hume) |
+| [VLA-Reasoner](https://arxiv.org/abs/2509.22643) | 2025.9 | ✓ | ✓ | OpenVLA / SpatialVLA / π₀-Fast | AR / Diffusion | D | MCTS | MB | (https://vla-reasoner.github.io/) |
 | [VLAPS](https://arxiv.org/abs/2508.12211) | 2025.11 | ✓ | ✗ | Octo | Diffusion | S | MCTS | MB | [🔗](https://github.com/cyrusneary/vlaps) |
 | [VLA-Pilot](https://arxiv.org/pdf/2511.14178) | 2025.11 | ✗ | ✓ | DiVLA / RDT | AR / Diffusion | D | Value GuidanceT | MB(MLLM) | [🔗](https://rip4kobe.github.io/vla-pilot/) |
 | [TACO](https://arxiv.org/pdf/2512.02834) | 2025.12 | ✓ | ✓ |  π₀ / OpenVLA et al. | Flow | S | CNF estimation | MF | [🔗](https://vla-anti-exploration.github.io/) |
