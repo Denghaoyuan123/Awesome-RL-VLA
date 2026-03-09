@@ -140,6 +140,8 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | [TwinRL-VLA](https://arxiv.org/abs/2602.09023) | 2026.2 | ✗ | ✓ | Octo | Diffusion | S | Actor-Critic | MF | — |
 | [RL-Co](https://arxiv.org/abs/2602.12628) | 2026.3 | ✓ | ✓ | OpenVLA / π0.5 | AR / Flow | D |  ReinFlow / GRPO | MF | — |
 | [π_StepNFT](https://arxiv.org/abs/2603.02083) | 2026.3 | ✓ | ✗ | π₀ / π₀.₅ | Flow | S | NFT | MF | [🔗](https://github.com/wangst0181/pi-StepNFT) |
+| [ROBOMETER](https://arxiv.org/abs/2603.02115) | 2026.3 | ✗ | ✓ | π₀ | Flow | D | DSRL | MF | [🔗](https://robometer.github.io/) |
+
 
 ### Offline + Online RL-VLA
 
