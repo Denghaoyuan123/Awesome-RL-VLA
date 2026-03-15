@@ -1,4 +1,5 @@
 # Awesome RL-VLA for Robotic Manipulation 🤖
+**[[Paper](https://www.techrxiv.org/users/934012/articles/1366553-a-survey-on-reinforcement-learning-of-vision-language-action-models-for-robotic-manipulation?commit=a7c4cf9ff94956e6d3c7f6eb1ff10a6eb2fc05e4)]**
 
 A curated list of papers and resources on **Reinforcement Learning of Vision-Language-Action (RL-VLA)** models for Robotic Manipulation. This repository provides a comprehensive overview of training paradigms, methodologies, and state-of-the-art approaches in RL-VLA research.
 
