@@ -142,8 +142,8 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | [RL-Co](https://arxiv.org/abs/2602.12628) | 2026.3 | ✓ | ✓ | OpenVLA / π0.5 | AR / Flow | D |  ReinFlow / GRPO | MF | — |
 | [π_StepNFT](https://arxiv.org/abs/2603.02083) | 2026.3 | ✓ | ✗ | π₀ / π₀.₅ | Flow | S | NFT | MF | [🔗](https://github.com/wangst0181/pi-StepNFT) |
 | [ROBOMETER](https://arxiv.org/abs/2603.02115) | 2026.3 | ✗ | ✓ | π₀ | Flow | D | DSRL | MF | [🔗](https://robometer.github.io/) |
-| [AtomVLA](https://arxiv.org/abs/2603.08519) | 2026.03 | ✓ | ✓ | AtomVLA | Flow | D | GRPO | MB | — |
-| [NS-VLA](https://arxiv.org/abs/2603.09542) | 2026.03 | ✓ | ✗ | NS-VLA | AR | D | GRPO | MF | [🔗](https://github.com/Zuzuzzy/NS-VLA) |
+| [AtomVLA](https://arxiv.org/abs/2603.08519) | 2026.3 | ✓ | ✓ | AtomVLA | Flow | D | GRPO | MB | — |
+| [NS-VLA](https://arxiv.org/abs/2603.09542) | 2026.3 | ✓ | ✗ | NS-VLA | AR | D | GRPO | MF | [🔗](https://github.com/Zuzuzzy/NS-VLA) |
 
 
 
