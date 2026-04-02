@@ -167,7 +167,7 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 |--------|------|-------------|------|------|----------------|--------|--------|-----------|------|---------|
 | [V-GPS](https://arxiv.org/abs/2410.13816) | 2024.10 | CoRL25[🔗](https://proceedings.mlr.press/v270/nakamoto25a.html) | ✓ | ✓ | Octo / RT-1 / OpenVLA | AR / Diffusion | D | Cal-QL | MF | [🔗](https://github.com/nakamotoo/V-GPS) |
 | [Hume](https://arxiv.org/abs/2505.21432) | 2025.6 | - | ✓ | ✓ | Hume | Flow | S | Value Guidance | MF | [🔗](https://github.com/hume-vla/hume) |
-| [VLA-Reasoner](https://arxiv.org/abs/2509.22643) | 2025.9 | ICRA 2026[🔗](https://vla-reasoner.github.io/) | ✓ | ✓ | OpenVLA / SpatialVLA / π₀-Fast | AR / Diffusion | D | MCTS | MB |  [🔗](https://vla-reasoner.github.io/) |
+| [VLA-Reasoner](https://arxiv.org/abs/2509.22643) | 2025.9 | ICRA26[🔗](https://vla-reasoner.github.io/) | ✓ | ✓ | OpenVLA / SpatialVLA / π₀-Fast | AR / Diffusion | D | MCTS | MB |  [🔗](https://vla-reasoner.github.io/) |
 | [VLAPS](https://arxiv.org/abs/2508.12211) | 2025.11 | CoRL25 Workshop[🔗](https://openreview.net/forum?id=XB3NCAheab) | ✓ | ✗ | Octo | Diffusion | S | MCTS | MB | [🔗](https://github.com/cyrusneary/vlaps) |
 | [VLA-Pilot](https://arxiv.org/pdf/2511.14178) | 2025.11 | - | ✗ | ✓ | DiVLA / RDT | AR / Diffusion | D | Value GuidanceT | MB(MLLM) | [🔗](https://rip4kobe.github.io/vla-pilot/) |
 | [TACO](https://arxiv.org/pdf/2512.02834) | 2025.12 | - | ✓ | ✓ |  π₀ / OpenVLA et al. | Flow | S | CNF estimation | MF | [🔗](https://vla-anti-exploration.github.io/) |
