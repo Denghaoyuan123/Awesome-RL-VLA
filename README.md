@@ -78,6 +78,7 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 - **Reward**: D (Dense Reward), S (Sparse Reward)
 - **Model Type**: MB (Model-based), MF (Model-free)
 - **Environment**: Sim. (Simulation), Real (Real-world)
+- **Task**: MT (Multi-task), ST (Single-task)
 
 ### Offline RL-VLA
 
@@ -98,54 +99,52 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 
 | Method | Date | Publication | Sim. | Real | Base VLA Model | Action | Reward | Algorithm | Type | Project |
 |--------|------|-------------|------|------|----------------|--------|--------|-----------|------|---------|
-| [FLaRe](https://arxiv.org/abs/2409.16578) | 2024.09 | ICRA25[🔗](https://ieeexplore.ieee.org/document/11127934) | ✓ | ✓ | SPOC | AR | S | PPO | MF | [🔗](https://github.com/JiahengHu/FLaRe) |
-| [PA-RL](https://arxiv.org/abs/2412.06685) | 2024.12 | ICLR25 Workshop[🔗](https://iclr.cc/virtual/2025/10000710) | ✓ | ✓ | OpenVLA | AR | S | PA-RL | MF | [🔗](https://policyagnosticrl.github.io/) |
-| [RLDG](https://arxiv.org/pdf/2412.09858) | 2024.12 | RSS25[🔗](https://www.roboticsproceedings.org/rss21/p028.pdf) | ✗ | ✓ | OpenVLA / Octo | AR / Diffusion | S | RLPD | MF | [🔗](https://generalist-distillation.github.io/) |
-| [iRe-VLA](https://arxiv.org/abs/2501.16664) | 2025.01 | ICRA25[🔗](https://ieeexplore.ieee.org/document/11127299) | ✓ | ✓ | iRe-VLA | AR | S | SACfD + SFT | MF | - |
-| [GRAPE](https://arxiv.org/pdf/2411.19309) | 2025.02 | ICRA25 Poster[🔗](https://openreview.net/forum?id=W64vwmZHdK) | ✓ | ✓ | OpenVLA | AR | D | TPO | MF | [🔗](https://github.com/aiming-lab/grape) |
-| [SafeVLA](https://arxiv.org/abs/2503.03480) | 2025.03 | NeurIPS25 Poster[🔗](https://neurips.cc/virtual/2025/loc/san-diego/poster/116975) | ✓ | ✗ | SPOC | AR | S | PPO | MF | [🔗](https://sites.google.com/view/pku-safevla) |
-| [RIPT-VLA](https://arxiv.org/abs/2505.17016) | 2025.05 | - | ✓ | ✗ | QueST / OpenVLA-OFT | AR | S | LOOP | MF | [🔗](https://ariostgx.github.io/ript_vla/) |
-| [VLA-RL](https://arxiv.org/abs/2505.18719) | 2025.05 | - | ✓ | ✗ | OpenVLA | AR | D | PPO | MF | [🔗](https://github.com/GuanxingLu/vlarl) |
-| [RLVLA](https://arxiv.org/abs/2505.19789) | 2025.05 | NeurIPS25 Poster[🔗](https://neurips.cc/virtual/2025/loc/san-diego/poster/115842) | ✓ | ✗ | OpenVLA | AR | S | PPO / GRPO / DPO | MF | [🔗](https://github.com/gen-robot/RL4VLA) |
-| [RFTF](https://arxiv.org/abs/2505.19767) | 2025.05 | - | ✓ | ✗ | GR-MG, Seer | AR | D | PPO | MF | - |
-| [TGRPO](https://arxiv.org/abs/2506.08440) | 2025.06 | - | ✓ | ✗ | OpenVLA | AR | D | GRPO | MF | - |
-| [RLRC](https://arxiv.org/pdf/2506.17639) | 2025.06 | - | ✓ | ✗ | OpenVLA | AR | S | PPO | MF | [🔗](https://rlrc-vla.github.io/) |
-| [ThinkAct](https://arxiv.org/abs/2507.16815) | 2025.07 | NeurIPS25 Poster[🔗](https://neurips.cc/virtual/2025/loc/san-diego/poster/119747) | ✓ | ✗ | MLLM + DiT | AR / Diffusion | D | GRPO (System 2) | MF | [🔗](https://jasper0314-huang.github.io/thinkact-vla/) |
-| [SimpleVLA-RL](https://arxiv.org/pdf/2509.09674) | 2025.09 | ICLR26 Poster[🔗](https://openreview.net/forum?id=TQhSodCM4r) | ✓ | ✓ | OpenVLA-OFT | AR | S | GRPO | MF | [🔗](https://github.com/PRIME-RL/SimpleVLA-RL) |
-| [Dual-Actor FT](https://arxiv.org/pdf/2509.13774) | 2025.09 | IROS25 Workshop Extended Abstract[🔗](https://sites.google.com/view/hil-daft/) | ✓ | ✓ | Octo / SmolVLA | Diffusion | S | QL + BC | MF | [🔗](https://sites.google.com/view/hil-daft/) |
-| [Generalist](https://arxiv.org/pdf/2509.15155) | 2025.09 | NeurIPS25 Poster[🔗](https://neurips.cc/virtual/2025/loc/san-diego/poster/118633) | ✓ | ✓ | PaLI 3B | AR | D | REINFORCE | MF | [🔗](https://self-improving-efms.github.io./) |
-| [VLAC](https://arxiv.org/abs/2509.15937) | 2025.09 | - | ✗ | ✓ | VLAC | AR | D | PPO | MF | [🔗](https://github.com/InternRobotics/VLAC) |
-| [Robo-Dopamine](https://arxiv.org/abs/2512.23703) | 2025.12 | CVPR26[🔗](https://robo-dopamine.github.io/) | ✓ | ✓ | Pi0.5 | Flow | D | PPO | MF | [🔗](https://github.com/FlagOpen/Robo-Dopamine) |
-| [AC PPO](https://arxiv.org/pdf/2509.25718) | 2025.09 | - | ✓ | ✗ | Octo-small | AR | S | PPO+BC | MF | - |
-| [VLA-RFT](https://arxiv.org/abs/2510.00406) | 2025.10 | - | ✓ | ✗ | VLA-Adapter | Flow | D | GRPO | MB | [🔗](https://vla-rft.github.io/) |
-| [RLinf-VLA](https://arxiv.org/pdf/2510.06710v1) | 2025.10 | - | ✓ | ✓ | OpenVLA / OpenVLA-OFT | AR | S | PPO / GRPO | MF | [🔗](https://github.com/RLinf/RLinf) |
-| [FPO](https://arxiv.org/pdf/2510.09976) | 2025.10 | - | ✓ | ✗ | π₀ | Flow | S | FPO | MF | - |
-| [ReSA](https://arxiv.org/pdf/2510.12710) | 2025.10 | - | ✓ | ✗ | OpenVLA | AR | D | PPO + SFT | MF | - |
-| [π_RL](https://arxiv.org/abs/2510.25889) | 2025.10 | - | ✓ | ✗ | π₀ / π₀.₅ | Flow | S | PPO / GRPO | MF | [🔗](https://github.com/RLinf/RLinf) |
-| [PLD](https://arxiv.org/abs/2511.00091) | 2025.10 | ICLR26 Poster[🔗](https://iclr.cc/virtual/2026/poster/10008318) | ✓ | ✓ | OpenVLA / π₀ / Octo | AR / Flow | S | Cal-QL + SAC | MF | [🔗](https://www.wenlixiao.com/self-improve-VLA-PLD) |
-| [DeepThinkVLA](https://arxiv.org/abs/2511.15669) | 2025.10 | - | ✓ | ✗ | π₀-Fast | AR | S | GRPO | MF | [🔗](https://github.com/wadeKeith/DeepThinkVLA) |
-| [World-Env](https://arxiv.org/abs/2509.24948) | 2025.11 | - | ✓ | ✓ | OpenVLA-OFT | AR | D | PPO | MB | [🔗](https://github.com/amap-cvlab/world-env) |
-| [RobustVLA](https://arxiv.org/pdf/2511.01331) | 2025.11  - || ✓ | ✗ | OpenVLA-OFT | AR | D | PPO | MF | - |
-| [WMPO](https://arxiv.org/abs/2511.09515) | 2025.11 | ICLR26 Poster[🔗](https://iclr.cc/virtual/2026/poster/10007263) | ✓ | ✓ | OpenVLA-OFT | AR | S | GRPO | MB | [🔗](https://wm-po.github.io/) |
-| [ProphRL](https://arxiv.org/abs/2511.20633v1) | 2025.11 | - | ✓ | ✓ | VLA-Adapter / π0.5 / OpenVLA-OFT(flow action) | Flow | S | FA-GRPO | MB | [🔗](https://logosroboticsgroup.github.io/ProphRL) |
-| [EVOLVE-VLA](https://arxiv.org/pdf/2512.14666) | 2025.12 | - | ✓ | ✗ |  OpenVLA-OFT | AR | D | GRPO | MB(VLAC) | [🔗](https://showlab.github.io/EVOLVE-VLA) |
-| [SOP](https://arxiv.org/abs/2601.03044v1) | 2026.1 | - | ✗ | ✓ | π0.5 | Flow | S | HG-DAgger / RECAP | MF | [🔗](https://www.agibot.com/research/sop) |
-| [Green-VLA](https://arxiv.org/abs/2602.00919) | 2026.1 | - | ✓ | ✓ | Green-VLA | Flow | S | IQL + actor-critic | MF | [🔗](https://github.com/greenvla/GreenVLA) |
-| [SA-VLA](https://arxiv.org/abs/2602.00743) | 2026.1 | - | ✓ | ✗ | π0.5 | Flow | D | PPO | MF | [🔗](https://github.com/TwSphinx54/SA-VLA) |
-| [World-Gymnast](https://arxiv.org/abs/2602.02454) | 2026.2 | ICLR26 Workshop[🔗](https://openreview.net/forum?id=N3jMxWfJlb) | ✓ | ✓ | OpenVLA-OFT | AR | S | GRPO | MB | [🔗](https://world-gymnast.github.io) |
-| [RL-VLA3](https://arxiv.org/abs/2602.05765) | 2026.2 | ICLR26 Workshop[🔗](https://openreview.net/forum?id=IWS9pJKnlI) | ✓ | ✓ | π0 / π0.5 / GR00T N1.5 / OpenVLA-OFT | Flow / AR | S| - | MF | — |
-| [World-VLA-Loop](https://arxiv.org/abs/2602.06508) | 2026.2 | - | ✓ | ✓ | OpenVLA-OFT | AR | S | GRPO | MB | [🔗](https://showlab.github.io/World-VLA-Loop/) |
-| [RISE](https://arxiv.org/abs/2602.11075) | 2026.2 | - | ✗ | ✓ | π0.5 | Flow | D | RISE | MB | [🔗](https://opendrivelab.com/kai0-rl/) |
-| [WoVR](https://arxiv.org/abs/2602.13977) | 2026.2 | - | ✓ | ✓ | OpenVLA-OFT | AR | S | GRPO | MB | [🔗](https://github.com/RLinf/RLinf) |
-| [ALOE](https://arxiv.org/abs/2602.12691) | 2026.2 | - | ✗ | ✓ | π₀.₅ | Flow | S | AWR(Advantage-Weighted Regression) | MF | [🔗](https://rooshy-yang.github.io/) |
-| [TwinRL-VLA](https://arxiv.org/abs/2602.09023) | 2026.2 | - | ✗ | ✓ | Octo | Diffusion | S | Actor-Critic | MF | — |
-| [RL-Co](https://arxiv.org/abs/2602.12628) | 2026.3 | - | ✓ | ✓ | OpenVLA / π0.5 | AR / Flow | D |  ReinFlow / GRPO | MF | — |
-| [π_StepNFT](https://arxiv.org/abs/2603.02083) | 2026.3 | - | ✓ | ✗ | π₀ / π₀.₅ | Flow | S | NFT | MF | [🔗](https://github.com/wangst0181/pi-StepNFT) |
-| [ROBOMETER](https://arxiv.org/abs/2603.02115) | 2026.3 | - | ✗ | ✓ | π₀ | Flow | D | DSRL | MF | [🔗](https://robometer.github.io/) |
-| [AtomVLA](https://arxiv.org/abs/2603.08519) | 2026.3 | - | ✓ | ✓ | AtomVLA | Flow | D | GRPO | MB | — |
-| [NS-VLA](https://arxiv.org/abs/2603.09542) | 2026.3 | - | ✓ | ✗ | NS-VLA | AR | D | GRPO | MF | [🔗](https://github.com/Zuzuzzy/NS-VLA) |
-
-
+| [FLaRe](https://arxiv.org/abs/2409.16578) | 2024.09 | ICRA25[🔗](https://ieeexplore.ieee.org/document/11127934) | ✓ (ST)| ✓ (ST)| SPOC | AR | S | PPO | MF | [🔗](https://github.com/JiahengHu/FLaRe) |
+| [PA-RL](https://arxiv.org/abs/2412.06685) | 2024.12 | ICLR25 Workshop[🔗](https://iclr.cc/virtual/2025/10000710) | ✓ (ST)| ✓ (ST)| OpenVLA | AR | S | PA-RL | MF | [🔗](https://policyagnosticrl.github.io/) |
+| [RLDG](https://arxiv.org/pdf/2412.09858) | 2024.12 | RSS25[🔗](https://www.roboticsproceedings.org/rss21/p028.pdf) | ✗ | ✓ (ST)| OpenVLA / Octo | AR / Diffusion | S | RLPD | MF | [🔗](https://generalist-distillation.github.io/) |
+| [iRe-VLA](https://arxiv.org/abs/2501.16664) | 2025.01 | ICRA25[🔗](https://ieeexplore.ieee.org/document/11127299) | ✓ (MT)| ✓ (MT)| iRe-VLA | AR | S | SACfD + SFT | MF | - |
+| [GRAPE](https://arxiv.org/pdf/2411.19309) | 2025.02 | ICRA25 Poster[🔗](https://openreview.net/forum?id=W64vwmZHdK) | ✓ (MT)| ✓ (MT)| OpenVLA | AR | D | TPO | MF | [🔗](https://github.com/aiming-lab/grape) |
+| [SafeVLA](https://arxiv.org/abs/2503.03480) | 2025.03 | NeurIPS25 Poster[🔗](https://neurips.cc/virtual/2025/loc/san-diego/poster/116975) | ✓ (ST)| ✗ | SPOC | AR | S | PPO | MF | [🔗](https://sites.google.com/view/pku-safevla) |
+| [RIPT-VLA](https://arxiv.org/abs/2505.17016) | 2025.05 | - | ✓ (MT)| ✗ | QueST / OpenVLA-OFT | AR | S | LOOP | MF | [🔗](https://ariostgx.github.io/ript_vla/) |
+| [VLA-RL](https://arxiv.org/abs/2505.18719) | 2025.05 | - | ✓ (MT)| ✗ | OpenVLA | AR | D | PPO | MF | [🔗](https://github.com/GuanxingLu/vlarl) |
+| [RLVLA](https://arxiv.org/abs/2505.19789) | 2025.05 | NeurIPS25 Poster[🔗](https://neurips.cc/virtual/2025/loc/san-diego/poster/115842) | ✓ (MT)| ✗ | OpenVLA | AR | S | PPO / GRPO / DPO | MF | [🔗](https://github.com/gen-robot/RL4VLA) |
+| [RFTF](https://arxiv.org/abs/2505.19767) | 2025.05 | - | ✓ (MT)| ✗ | GR-MG, Seer | AR | D | PPO | MF | - |
+| [TGRPO](https://arxiv.org/abs/2506.08440) | 2025.06 | - | ✓ (ST)| ✗ | OpenVLA | AR | D | GRPO | MF | - |
+| [RLRC](https://arxiv.org/pdf/2506.17639) | 2025.06 | - | ✓ (MT)| ✗ | OpenVLA | AR | S | PPO | MF | [🔗](https://rlrc-vla.github.io/) |
+| [ThinkAct](https://arxiv.org/abs/2507.16815) | 2025.07 | NeurIPS25 Poster[🔗](https://neurips.cc/virtual/2025/loc/san-diego/poster/119747) | ✓  (MT)| ✗ | MLLM + DiT | AR / Diffusion | D | GRPO (System 2) | MF | [🔗](https://jasper0314-huang.github.io/thinkact-vla/) |
+| [SimpleVLA-RL](https://arxiv.org/pdf/2509.09674) | 2025.09 | ICLR26 Poster[🔗](https://openreview.net/forum?id=TQhSodCM4r) | ✓ (MT)| ✓ (ST)| OpenVLA-OFT | AR | S | GRPO | MF | [🔗](https://github.com/PRIME-RL/SimpleVLA-RL) |
+| [Dual-Actor FT](https://arxiv.org/pdf/2509.13774) | 2025.09 | IROS25 Workshop Extended Abstract[🔗](https://sites.google.com/view/hil-daft/) | ✓ (MT)| ✓ (MT)| Octo / SmolVLA | Diffusion | S | QL + BC | MF | [🔗](https://sites.google.com/view/hil-daft/) |
+| [Generalist](https://arxiv.org/pdf/2509.15155) | 2025.09 | NeurIPS25 Poster[🔗](https://neurips.cc/virtual/2025/loc/san-diego/poster/118633) | ✓ (MT)| ✓ (MT)| PaLI 3B | AR | D | REINFORCE | MF | [🔗](https://self-improving-efms.github.io./) |
+| [VLAC](https://arxiv.org/abs/2509.15937) | 2025.09 | - | ✗ | ✓ (MT)| VLAC | AR | D | PPO | MF | [🔗](https://github.com/InternRobotics/VLAC) |
+| [Robo-Dopamine](https://arxiv.org/abs/2512.23703) | 2025.12 | CVPR26[🔗](https://robo-dopamine.github.io/) | ✓ (MT)| ✓ (MT)| Pi0.5 | Flow | D | PPO | MF | [🔗](https://github.com/FlagOpen/Robo-Dopamine) |
+| [AC PPO](https://arxiv.org/pdf/2509.25718) | 2025.09 | - | ✓ (ST)| ✗ | Octo-small | AR | S | PPO+BC | MF | - |
+| [VLA-RFT](https://arxiv.org/abs/2510.00406) | 2025.10 | - | ✓ (MT)| ✗ | VLA-Adapter | Flow | D | GRPO | MB | [🔗](https://vla-rft.github.io/) |
+| [RLinf-VLA](https://arxiv.org/pdf/2510.06710v1) | 2025.10 | - | ✓ (MT)| ✓ (MT)| OpenVLA / OpenVLA-OFT | AR | S | PPO / GRPO | MF | [🔗](https://github.com/RLinf/RLinf) |
+| [FPO](https://arxiv.org/pdf/2510.09976) | 2025.10 | - | ✓ (MT)| ✗ | π₀ | Flow | S | FPO | MF | - |
+| [ReSA](https://arxiv.org/pdf/2510.12710) | 2025.10 | - | ✓ (MT)| ✗ | OpenVLA | AR | D | PPO + SFT | MF | - |
+| [π_RL](https://arxiv.org/abs/2510.25889) | 2025.10 | - | ✓ (MT)| ✗ | π₀ / π₀.₅ | Flow | S | PPO / GRPO | MF | [🔗](https://github.com/RLinf/RLinf) |
+| [PLD](https://arxiv.org/abs/2511.00091) | 2025.10 | ICLR26 Poster[🔗](https://iclr.cc/virtual/2026/poster/10008318) | ✓ (MT)| ✓ (MT)| OpenVLA / π₀ / Octo | AR / Flow | S | Cal-QL + SAC | MF | [🔗](https://www.wenlixiao.com/self-improve-VLA-PLD) |
+| [DeepThinkVLA](https://arxiv.org/abs/2511.15669) | 2025.10 | - | ✓ (MT)| ✗ | π₀-Fast | AR | S | GRPO | MF | [🔗](https://github.com/wadeKeith/DeepThinkVLA) |
+| [World-Env](https://arxiv.org/abs/2509.24948) | 2025.11 | - | ✓ (ST)| ✓ (ST)| OpenVLA-OFT | AR | D | PPO | MB | [🔗](https://github.com/amap-cvlab/world-env) |
+| [RobustVLA](https://arxiv.org/pdf/2511.01331) | 2025.11 | - | ✓ (MT)| ✗ | OpenVLA-OFT | AR | D | PPO | MF | - |
+| [WMPO](https://arxiv.org/abs/2511.09515) | 2025.11 | ICLR26 Poster[🔗](https://iclr.cc/virtual/2026/poster/10007263) | ✓ (MT)| ✓ (MT)| OpenVLA-OFT | AR | S | GRPO | MB | [🔗](https://wm-po.github.io/) |
+| [ProphRL](https://arxiv.org/abs/2511.20633v1) | 2025.11 | - | ✓ (ST)| ✓ (ST)| VLA-Adapter / π0.5 / OpenVLA-OFT(flow action) | Flow | S | FA-GRPO | MB | [🔗](https://logosroboticsgroup.github.io/ProphRL) |
+| [EVOLVE-VLA](https://arxiv.org/pdf/2512.14666) | 2025.12 | - | ✓ (MT)| ✗ |  OpenVLA-OFT | AR | D | GRPO | MB(VLAC) | [🔗](https://showlab.github.io/EVOLVE-VLA) |
+| [SOP](https://arxiv.org/abs/2601.03044v1) | 2026.1 | - | ✗ | ✓ (MT)| π0.5 | Flow | S | HG-DAgger / RECAP | MF | [🔗](https://www.agibot.com/research/sop) |
+| [Green-VLA](https://arxiv.org/abs/2602.00919) | 2026.1 | - | ✓ (MT)| ✓ (MT)| Green-VLA | Flow | S | IQL + actor-critic | MF | [🔗](https://github.com/greenvla/GreenVLA) |
+| [SA-VLA](https://arxiv.org/abs/2602.00743) | 2026.1 | - | ✓ (MT)| ✗ | π0.5 | Flow | D | PPO | MF | [🔗](https://github.com/TwSphinx54/SA-VLA) |
+| [World-Gymnast](https://arxiv.org/abs/2602.02454) | 2026.2 | ICLR26 Workshop[🔗](https://openreview.net/forum?id=N3jMxWfJlb) | ✓ (MT)| ✓ (MT)| OpenVLA-OFT | AR | S | GRPO | MB | [🔗](https://world-gymnast.github.io) |
+| [RL-VLA3](https://arxiv.org/abs/2602.05765) | 2026.2 | ICLR26 Workshop[🔗](https://openreview.net/forum?id=IWS9pJKnlI) | ✓ (MT)| ✗ | π0 / π0.5 / GR00T N1.5 / OpenVLA-OFT | Flow / AR | S| - | MF | — |
+| [World-VLA-Loop](https://arxiv.org/abs/2602.06508) | 2026.2 | - | ✓ (ST)| ✓ (ST)| OpenVLA-OFT | AR | S | GRPO | MB | [🔗](https://showlab.github.io/World-VLA-Loop/) |
+| [RISE](https://arxiv.org/abs/2602.11075) | 2026.2 | - | ✗ | ✓ (ST)| π0.5 | Flow | D | RISE | MB | [🔗](https://opendrivelab.com/kai0-rl/) |
+| [WoVR](https://arxiv.org/abs/2602.13977) | 2026.2 | - | ✓ (MT)| ✓ (MT)| OpenVLA-OFT | AR | S | GRPO | MB | [🔗](https://github.com/RLinf/RLinf) |
+| [ALOE](https://arxiv.org/abs/2602.12691) | 2026.2 | - | ✗ | ✓ (ST)| π₀.₅ | Flow | S | AWR(Advantage-Weighted Regression) | MF | [🔗](https://rooshy-yang.github.io/) |
+| [TwinRL-VLA](https://arxiv.org/abs/2602.09023) | 2026.2 | - | ✗ | ✓ (ST)| Octo | Diffusion | S | Actor-Critic | MF | — |
+| [RL-Co](https://arxiv.org/abs/2602.12628) | 2026.3 | - | ✓ (ST)| ✓ (ST)| OpenVLA / π0.5 | AR / Flow | D |  ReinFlow / GRPO | MF | — |
+| [π_StepNFT](https://arxiv.org/abs/2603.02083) | 2026.3 | - | ✓ (MT)| ✗ | π₀ / π₀.₅ | Flow | S | NFT | MF | [🔗](https://github.com/wangst0181/pi-StepNFT) |
+| [ROBOMETER](https://arxiv.org/abs/2603.02115) | 2026.3 | - | ✗ | ✓ (MT)| π₀ | Flow | D | DSRL | MF | [🔗](https://robometer.github.io/) |
+| [AtomVLA](https://arxiv.org/abs/2603.08519) | 2026.3 | - | ✓ (MT) | ✓ (ST)| AtomVLA | Flow | D | GRPO | MB | — |
+| [NS-VLA](https://arxiv.org/abs/2603.09542) | 2026.3 | - | ✓ (MT)| ✗ | NS-VLA | AR | D | GRPO | MF | [🔗](https://github.com/Zuzuzzy/NS-VLA) |
 
 
 ### Offline + Online RL-VLA
