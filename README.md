@@ -86,9 +86,9 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 |--------|------|-------------|------|------|----------------|--------|--------|-----------|------|---------|
 | [Q-Transformer](https://arxiv.org/abs/2309.10150) | 2023.10 | CoRL23[🔗](https://proceedings.mlr.press/v229/chebotar23a.html) | ✓ | ✗ | Transformer | AR | S | CQL | MF | [🔗](https://qtransformer.github.io/) |
 | [PAC](https://arxiv.org/abs/2402.05546) | 2024.02 | ICML24[🔗](https://proceedings.mlr.press/v235/springenberg24a.html) | ✓ | ✓ | Perceiver-Actor-Critic | AR | S | AC | MF | [🔗](https://sites.google.com/view/perceiver-actor-critic) |
-| [GeRM](https://arxiv.org/pdf/2403.13358) | 2024.03 | IROS24[🔗](https://ieeexplore.ieee.org/document/10801816) | ✓ | ✗ | Transformer-MoE | AR | S | CQL | MF | [🔗](https://songwxuan.github.io/GeRM/) |
-| [MoRE](https://arxiv.org/pdf/2503.08007) | 2025.03 | ICRA25[🔗](https://ieeexplore.ieee.org/document/11128601) | ✗ | ✓  | MLLM-MoE | AR | S | CQL | MF |  -  |
-| [ReinboT](https://icml.cc/virtual/2025/poster/45523) | 2025.05 | ICML25 Workshop[🔗](https://icml.cc/virtual/2025/poster/45523) | ✓ | ✓ | ReinboT | AR | D | DT + RTG | MF | [🔗](https://github.com/COST-97/reinboT) |
+| [GeRM](https://arxiv.org/pdf/2403.13358)(Quadruped Robot) | 2024.03 | IROS24[🔗](https://ieeexplore.ieee.org/document/10801816) | ✓ | ✗ | Transformer-MoE | AR | S | CQL | MF | [🔗](https://songwxuan.github.io/GeRM/) |
+| [MoRE](https://arxiv.org/pdf/2503.08007)(Quadruped Robot) | 2025.03 | ICRA25[🔗](https://ieeexplore.ieee.org/document/11128601) | ✗ | ✓  | MLLM-MoE | AR | S | CQL | MF |  -  |
+| [ReinboT](https://icml.cc/virtual/2025/poster/45523) | 2025.05 | ICML25[🔗](https://icml.cc/virtual/2025/poster/45523) | ✓ | ✓ | ReinboT | AR | D | DT + RTG | MF | [🔗](https://github.com/COST-97/reinboT) |
 | [CO-RFT](https://arxiv.org/pdf/2508.02219) | 2025.08 | - | ✗ | ✓ | RoboVLMs | AR | D | Cal-QL + TD3 | MF | - |
 | [ARFM](https://arxiv.org/pdf/2509.04063) | 2025.09 | AAAI26[🔗](https://ojs.aaai.org/index.php/AAAI/article/view/38944) | ✓ | ✓ | π₀ | Flow | D | ARFM | MF | - |
 | [$π^*_{0.6}$](https://arxiv.org/abs/2511.14759) | 2025.11 | - | ✗ | ✓ | $π_{0.6}$ | Flow | D | RECAP | MF | [🔗](https://www.pi.website/blog/pistar06) |
@@ -164,9 +164,9 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 
 | Method | Date | Publication | Sim. | Real | Base VLA Model | Action | Reward | Algorithm | Type | Project |
 |--------|------|-------------|------|------|----------------|--------|--------|-----------|------|---------|
-| [V-GPS](https://arxiv.org/abs/2410.13816) | 2024.10 | CoRL25[🔗](https://proceedings.mlr.press/v270/nakamoto25a.html) | ✓ | ✓ | Octo / RT-1 / OpenVLA | AR / Diffusion | D | Cal-QL | MF | [🔗](https://github.com/nakamotoo/V-GPS) |
-| [Hume](https://arxiv.org/abs/2505.21432) | 2025.6 | - | ✓ | ✓ | Hume | Flow | S | Value Guidance | MF | [🔗](https://github.com/hume-vla/hume) |
-| [VLA-Reasoner](https://arxiv.org/abs/2509.22643) | 2025.9 | ICRA26[🔗](https://vla-reasoner.github.io/) | ✓ | ✓ | OpenVLA / SpatialVLA / π₀-Fast | AR / Diffusion | D | MCTS | MB |  [🔗](https://vla-reasoner.github.io/) |
+| [V-GPS](https://arxiv.org/abs/2410.13816) | 2024.10 | CoRL25[🔗](https://proceedings.mlr.press/v270/nakamoto25a.html) | ✓(MT) | ✓(MT) | Octo / RT-1 / OpenVLA | AR / Diffusion | D | Cal-QL | MF | [🔗](https://github.com/nakamotoo/V-GPS) |
+| [Hume](https://arxiv.org/abs/2505.21432) | 2025.6 | - | ✓(MT) | ✓(MT) | Hume | Flow | S | Value Guidance | MF | [🔗](https://github.com/hume-vla/hume) |
+| [VLA-Reasoner](https://arxiv.org/abs/2509.22643) | 2025.9 | ICRA26[🔗](https://vla-reasoner.github.io/) | ✓(ST) | ✓(ST) | OpenVLA / SpatialVLA / π₀-Fast | AR / Diffusion | D | MCTS | MB |  [🔗](https://vla-reasoner.github.io/) |
 | [VLAPS](https://arxiv.org/abs/2508.12211) | 2025.11 | CoRL25 Workshop[🔗](https://openreview.net/forum?id=XB3NCAheab) | ✓ | ✗ | Octo | Diffusion | S | MCTS | MB | [🔗](https://github.com/cyrusneary/vlaps) |
 | [VLA-Pilot](https://arxiv.org/pdf/2511.14178) | 2025.11 | - | ✗ | ✓ | DiVLA / RDT | AR / Diffusion | D | Value GuidanceT | MB(MLLM) | [🔗](https://rip4kobe.github.io/vla-pilot/) |
 | [TACO](https://arxiv.org/pdf/2512.02834) | 2025.12 | - | ✓ | ✓ |  π₀ / OpenVLA et al. | Flow | S | CNF estimation | MF | [🔗](https://vla-anti-exploration.github.io/) |
