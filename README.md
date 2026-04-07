@@ -93,6 +93,8 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | [ARFM](https://arxiv.org/pdf/2509.04063) | 2025.09 | AAAI26[🔗](https://ojs.aaai.org/index.php/AAAI/article/view/38944) | ✓ | ✓ | π₀ | Flow | D | ARFM | MF | - |
 | [$π^*_{0.6}$](https://arxiv.org/abs/2511.14759) | 2025.11 | - | ✗ | ✓ | $π_{0.6}$ | Flow | D | RECAP | MF | [🔗](https://www.pi.website/blog/pistar06) |
 | [NORA-1.5](https://arxiv.org/pdf/2511.14659) | 2025.11 | - | ✓ | ✓ | NORA-1.5 | AR / Flow | D | DPO | MB | [🔗](https://declare-lab.github.io/nora-1.5) |
+| [GigaBrain-0.5M*](https://arxiv.org/pdf/2602.12099) | 2026.2 | - | ✗ | ✓ | GigaBrain-0.5 | Flow | D | RAMP | MB | [🔗](https://gigabrain05m.github.io/) |
+| [ARM](https://arxiv.org/pdf/2604.03037) | 2026.4 | - | ✗ | ✓ | GR00T N1.5 | Flow | D | AW-BC | MF | [🔗](https://aiming1998.github.io/ARM/) |
 
 
 ### Online RL-VLA
