@@ -167,7 +167,7 @@ Test-time RL-VLA adapts behavior during deployment through lightweight updates, 
 | Method | Date | Publication | Sim. | Real | Base VLA Model | Action | Reward | Algorithm | Type | Project |
 |--------|------|-------------|------|------|----------------|--------|--------|-----------|------|---------|
 | [V-GPS](https://arxiv.org/abs/2410.13816) | 2024.10 | CoRL25[🔗](https://proceedings.mlr.press/v270/nakamoto25a.html) | ✓(MT) | ✓(MT) | Octo / RT-1 / OpenVLA | AR / Diffusion | D | Cal-QL | MF | [🔗](https://github.com/nakamotoo/V-GPS) |
-| [Hume](https://arxiv.org/abs/2505.21432) | 2025.5 | - | ✓(MT) | ✓(MT) | Hume | Flow | S | Value Guidance | MF | [🔗](https://github.com/hume-vla/hume) |
+| [Hume](https://arxiv.org/abs/2505.21432) | 2025.5 | CVPR26[🔗](https://github.com/hume-vla/hume)/ | ✓(MT) | ✓(MT) | Hume | Flow | S | Value Guidance | MF | [🔗](https://github.com/hume-vla/hume) |
 | [DSRL](https://arxiv.org/abs/2506.15799) | 2025.6 | CoRL25[🔗](https://diffusion-steering.github.io/) | ✓(MT) | ✓(MT) | DP / π₀ | Diffusion / Flow | S | Diffusion Steering | MF |  [🔗](https://diffusion-steering.github.io/) |
 | [VLA-Reasoner](https://arxiv.org/abs/2509.22643) | 2025.9 | ICRA26[🔗](https://vla-reasoner.github.io/) | ✓(ST) | ✓(ST) | OpenVLA / SpatialVLA / π₀-Fast | AR / Diffusion | D | MCTS | MB |  [🔗](https://vla-reasoner.github.io/) |
 | [VLAPS](https://arxiv.org/abs/2508.12211) | 2025.11 | CoRL25 Workshop[🔗](https://openreview.net/forum?id=XB3NCAheab) | ✓(ST) | ✗ | Octo | Diffusion | S | MCTS | MB | [🔗](https://github.com/cyrusneary/vlaps) |
